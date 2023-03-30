@@ -751,11 +751,11 @@ section {
 }
 
 .contact {
-  background: var(--black);
+  background: var(--white);
 }
 
 .contact .heading {
-  color: var(--white);
+  color: var(--black);
 }
 
 .contact .row {
@@ -961,3 +961,59 @@ section {
   }
 }
 /*# sourceMappingURL=style.css.map */
+
+/* contact section styling */
+
+.contact-top {
+  text-align: center;
+}
+
+.contact-top h3 {
+  font-size: 28px;
+}
+.contact-top p {
+  font-weight: 300;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.contact-middle div {
+  text-align: center;
+  padding: 25px 0;
+  background: var(--white);
+  color: var(--black);
+}
+
+.contact-middle div a {
+  display: block;
+}
+
+.contact-middle div p {
+  color: var(--black);
+}
+
+.contact-icon {
+  font-size: 20px;
+  color: var(--yellow);
+}
+
+.contact-middle div span:nth-child(2) {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-middle div p {
+  font-weight: 300;
+  opacity: 0.7;
+  font-size: 16px;
+}
+
+/* contact session ends */
+
+/* bottom logo positioning */
+
+
+.pglogo img{
+  width: 11%;
+  margin-left: 45%;
+} 
